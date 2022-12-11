@@ -1,0 +1,25 @@
+
+* {
+  box-sizing: border-box;
+}
+
+$sandal-brown: #AB8B6F;
+$muted-brown: #5e504c;
+
+$darkgrey-brown: #5c5656;
+$quincy-brown: #643C31;
+$light-grey: #E9EBEB;
+$dark-brown: #35211E;
+
+$theme-colors: (
+  'primary': $quincy-brown,
+  'secondary': $darkgrey-brown,
+  'success': $muted-brown,
+  'info': #ff7d50,
+  'warning': #ffbe0b,
+  'danger': #ff007f,
+  'light':$light-grey,
+  'dark': $dark-brown,
+);
+
+@import '/node_modules/bootstrap/scss/bootstrap.scss';

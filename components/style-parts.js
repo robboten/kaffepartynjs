@@ -1,0 +1,1 @@
+export function DividerSm() { return (<hr className="mb-1 mt-3" />); }

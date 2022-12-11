@@ -1,0 +1,34 @@
+[
+    {
+      "id": 1,
+      "name": "Philips",
+      "group": "Espressomaskin",
+      "image": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSChF5wTqzZGth8UIBLiC7Rk9L0QAuHf0fUQDQxRtGajfz5a6yQ6toldkwrIKLguhkpDzjaLrrQCj6NUTmuEAM_5eSVJvIDWYLNcQbFSJGRtUqvb92OW1t2Fw&usqp=CAE",
+      "desc": "Gör enkelt aromatiska kaffevarianter som espresso, kaffe och cappuccino med en knapptryckning. LatteGo avrundar mjölkvarianterna med ett lent och mjukt skum, är enkel att installera och rengörs på så lite som 15 sekunder.",
+      "price": 5200
+    },
+    {
+      "id": 2,
+      "name": "CitiZ Single",
+      "group": "Kapselmaskin",
+      "image": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQ6xMIz6DSQAJJazC0zkprh5f5m5G6YIub4BRgk8_h2Ri_yOzemRkzHW9z3zgVj7kf8YTQ7yozSONWLJcqmIoP90tQHqhDMgqUHaJ0b1bAO0EPqrIbfgqs-&usqp=CAE",
+      "desc": "En espressomaskin som CitiZ Single ger verkligen något extra till ditt vardagliga kaffe. Den slanka formen och den förenklade designen passar inte bara bra in i ditt hem utan förhöjer även rummets känsla. När det kommer till design och funktionalitet framhäver denna kaffemaskin, liksom övriga kaffemaskiner i vårt sortiment, kvalité framför kvantitet.",
+      "price": 2099
+    },
+    {
+      "id": 3,
+      "name": "Philips 4300",
+      "group": "Helautomatisk",
+      "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQliI8yFoFG9dXhfsaCL-3OIcGV43Nk-9GFHKP6u3p-1YJqerjXC-uTd-e-xf-XItFtH25070wWwHveVaosXRgMSSUXYtCKcBWFMw4g0dfrPBn5c8djrm9qKQ&usqp=CAE",
+      "desc": "Klassisk mjölkskummare, 5 kaffespecialiteter med en knapptryckning, keramisk kvarn, Aqua Clean för mindre avkalkning.",
+      "price": 5351
+    },
+    {
+      "id": 4,
+      "name": "Philips",
+      "group": "Kaffebryggare ",
+      "image": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQ3QZN2KrkYhMkoFyt7ivfbYXKWkJVOKiu6QUCJjIL2CHxXxGlPtZ43vJ2xF6CqYy2kp1p8n-zcGp5nUz-L9FGmQwMGFdckGgTTzJwQSK_h87DDyHxHwd8j&usqp=CAE",
+      "desc": "Njut av riktigt gott kaffe på färskmalda bönor: Philips Grind & Brew Kaffebryggare med 1,2 l kapacitet för upp till 12 koppar. Maskinen har inbyggd kaffekvarn – Koniska malskivor för optimal malning och smak.",
+      "price": 1570
+    }
+  ]
