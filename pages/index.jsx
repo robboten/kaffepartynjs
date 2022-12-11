@@ -1,10 +1,10 @@
 import { Container } from 'react-bootstrap';
 
-import { mainPageHeaders, host } from '../lib/constants';
-
 import SimpleRow from '../components/simple-row';
 import Layout from '../components/Layout/layout';
 import QuoteRow from '../components/quote-row';
+
+import { mainPageHeaders, host } from '../lib/constants';
 
 export async function getStaticProps() {
   const res = await fetch(`${host}/api/quote`)
@@ -18,6 +18,7 @@ export async function getStaticProps() {
   }
 }
 
+//how do I add index to json without adding the nav element?
 function Home({ quote, src }) {
   return (
     <Layout title="Kaffeparty">

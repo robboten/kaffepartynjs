@@ -1,7 +1,9 @@
 import { Row, Col } from 'react-bootstrap';
-import employees from '../lib/employees';
+
 import { EmployeeCard } from '../components/Cards/employee';
 import Layout from '../components/Layout/layout';
+
+import employees from '../lib/employees';
 
 function About() {
     return (

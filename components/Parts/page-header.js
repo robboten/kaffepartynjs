@@ -4,11 +4,10 @@ import { sitePages } from '../../lib/constants';
 
 import { useRouter } from 'next/router';
 
-//rename
+//rename to main header or smt
 
-//move this into main function to use the title too?
+//if we have data for this page, display it, if not lorem
 function HeaderBody({ data }) {
-    //if we have anything in the json for this page, display it, if not lorem
     if (!data) {
         return <></>
     }
@@ -31,7 +30,6 @@ function HeaderBody({ data }) {
 function HeaderTitle({ title }) {
     console.log(title);
     return (
-
         <h1 className="display-4 fw-normal">{title}</h1>
     )
 }
@@ -40,11 +38,11 @@ export function PageHeader({ title }) {
     const router = useRouter()
     const pagepath = router.pathname
     const pagedata = sitePages.find((m) => `/${m.path}` === pagepath);
-    var pagetitle=title;
+    var pagetitle = title;
 
-    if (pagedata) { 
-        console.log("title: " + pagedata.title);
-        pagetitle=pagedata.title ? pagedata.title : title;
+    //set in title overrides json value?
+    if (pagedata && !pagetitle) {
+        pagetitle = pagedata.title ? pagedata.title : title;
     }
 
     return (

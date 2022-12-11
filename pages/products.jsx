@@ -1,8 +1,9 @@
 import { Row, Col } from 'react-bootstrap';
-import products from '../lib/products';
 
 import { ProductCard } from '../components/Cards/product';
 import Layout from '../components/Layout/layout';
+
+import products from '../lib/products';
 
 function Products() {
     return (

@@ -1,7 +1,9 @@
+import Link from 'next/link';
+
 import { Container } from 'react-bootstrap';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import Link from 'next/link';
+
 import { siteName, sitePages } from '../../lib/constants'
 
 export default function NavbarHead() {
